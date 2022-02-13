@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: rgba(114, 39, 101, 0.568);
+}
+
+.list-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-40%);
+  border: 1px solid rgba(99, 3, 94, 0.459);
+  box-shadow: 1px 1px 11px 11px rgba(255, 255, 255, 0.76);
+  padding: 4em;
+  background-color: rgba(255, 255, 255, 0.315);
+  border-radius: 11px;
+}
+
+.list-container h1 {
+  font-size: 2rem;
+  padding-bottom: 0.4em;
+  text-align: center;
+}
+
+/* .list-input {
+  padding-right: 4em;
+  padding-left: 4em;
+} */
+
+.list-input input {
+  width: 24em;
+  height: 2em;
+}
+
+.list-input button {
+  height: 2.3em;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.list-input button:hover {
+  background-color: rgba(207, 17, 176, 0.466);
+}
