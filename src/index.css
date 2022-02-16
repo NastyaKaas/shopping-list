@@ -5,7 +5,7 @@
 
 body {
   width: 100%;
-  background-color: rgba(114, 39, 101, 0.568);
+  background-color: rgba(13, 177, 150, 0.24);
 }
 
 .list-container {
@@ -13,7 +13,7 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%,-40%);
-  border: 1px solid rgba(99, 3, 94, 0.459);
+  border: 1px solid rgba(255, 255, 255, 0.459);
   box-shadow: 1px 1px 11px 11px rgba(255, 255, 255, 0.76);
   padding: 4em;
   background-color: rgba(255, 255, 255, 0.315);
@@ -26,11 +26,6 @@ body {
   text-align: center;
 }
 
-/* .list-input {
-  padding-right: 4em;
-  padding-left: 4em;
-} */
-
 .list-input input {
   width: 24em;
   height: 2em;
@@ -41,8 +36,34 @@ body {
   background-color: transparent;
   border: 1px solid white;
   border-radius: 5px;
+  padding: 0.4em;
+  font-size: 0.8rem;
 }
 
 .list-input button:hover {
-  background-color: rgba(207, 17, 176, 0.466);
+  background-color: rgba(17, 207, 150, 0.466);
 }
+
+.button-item-container {
+  display: flex;
+  padding: 0.4em;
+  background-color: rgba(6, 112, 126, 0.116);
+  margin: 0.6em;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.button-container {
+  display: flex;
+  position: absolute;
+  left: 84%;
+}
+
+.delete-button {
+  color: rgb(189, 0, 0);
+}
+
+.edit-button {
+  color: green;
+}
+
